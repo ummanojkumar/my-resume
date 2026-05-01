@@ -1,0 +1,339 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="<$BlogLanguageDirection$>">
+  
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manoj Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+  
+    <style>
+      img {
+        max-width: 100;
+        height: auto;
+      }
+
+      #mainMenu .nav-link {
+        color: blue;
+      }
+
+      #mainMenu .nav-link:hover {
+        background-color: blue;
+        color: black;
+        border-radius: 5px;
+      }
+
+      #mainMenu .nav-link:active {
+        background-color: blue;
+        color: black;
+        border-radius: 5px;
+      }
+
+      #work {
+        padding-top: 30px;
+      }
+
+      #contact {
+        background-image: url(images/map.png);
+      }
+
+      #pad {
+        padding: 50px;
+      }
+
+      @media only screen and (min-width:200px) and (max-width:767px) {
+        #work .col-md-4 {
+          padding-top: 16px;
+          margin-left: 15px;
+        }
+
+        #work {
+          margin-top: 60px;
+        }
+      }
+    </style>
+    
+    
+  </head>
+  
+  
+  
+  <body data-bs-spy="scroll" data-bs-target="#main_menu">
+    
+    
+    <!-- NAVBAR --> 
+    
+    <nav id="main_menu" class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+      <div class="container">
+        <!--mobile navbar friendly-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="" class="navbar-brand">
+          <img src="https://us.123rf.com/450wm/cotopaxi/cotopaxi1902/cotopaxi190200279/116758525-m-letter-natural-organic-food-leaf-blue-cool-logo-template.jpg?ver=6" alt="logo" width="50px">
+        </a>
+        <div id="mainMenu" class="collapse navbar-collapse">
+          <!--int this classs is used to mobile friendly class-->
+          
+          <ul class="navbar-nav">
+            <li>
+              <a href="#carouselExampleIndicators" class="nav-link">Home</a>
+            </li>
+            <li>
+              <a href="https://searchformanoj.blogspot.com/p/about.html" class="nav-link">about</a>
+            </li>
+            <li>
+              <a href="#work" class="nav-link">work</a>
+            </li>
+            
+            <li class="dropdown">
+              <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">projects</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="https://searchformanoj.blogspot.com/p/about.html" class="dropdown-item">dropdown1</a>
+                </li>
+                <li>
+                  <a href="https://ummanojkumar.blogspot.com/p/demo-2.html" class="dropdown-item">dropdown2</a>
+                </li>
+                <li>
+                  <a href="" class="dropdown-item">dropdown</a>
+                </li>
+                <li>
+                  <a href="" class="dropdown-item">dropdown</a>
+                </li>
+                <li>
+                  <a href="" class="dropdown-item">dropdown</a>
+                </li>
+              </ul>
+            </li>
+            
+            <li>
+              <a href="" class="nav-link">services</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    
+    
+    
+    <!--SLIDER-->
+    <section id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://img.freepik.com/free-vector/isometric-people-working-with-technology_52683-19078.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://img.freepik.com/free-vector/circuit-board-background-isometric-style_52683-17122.jpg?t=st=1652181174~exp=1652181774~hmac=8e78b833ba43a194ad14c3f5072b613a08ee0a9ceb12412913c6bdfbda129d02&w=996" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://img.freepik.com/free-photo/innovation-technology-businessman-holding-holding-tablet-with-lighting-bulb-creative-connection-line_28629-1158.jpg?w=1060" class="d-block w-100" alt="...">
+        </div>
+        
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+    
+    
+    <!--ABOUT -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 align-self-center">
+            <h1>About Us</h1>
+            <h2>What we Do ?</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, laudantium! Nostrum eius quos obcaecati commodi amet delectus veniam blanditiis magni modi nesciunt, nemo eos aut, fugiat hic ducimus quibusdam dolores! Deleniti quam aut laboriosam veniam nihil ullam, a ducimus quibusdam laborum voluptate qui pariatur maxime facere debitis, quaerat fuga porro neque quos! Harum, aliquid! Hic iure in error officiis voluptates, rem corporis aliquid, sed ut eum ratione mollitia officia aliquam maxime nesciunt quod. Aspernatur laboriosam ut veritatis, iusto, a odio minus itaque totam et eius molestiae accusamus harum molestias incidunt? Repudiandae animi possimus incidunt, dicta autem cupiditate sunt necessitatibus cumque?</p>
+          </div>
+          
+          <div class="col-md-6">
+            <img src="https://img.freepik.com/free-vector/isometric-people-working-with-technology_52683-19078.jpg" alt="image6" height="500" width="100%">
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    
+    
+    <!--WORK --> 
+    <section id="work" class="p-5">
+      <div class="container">
+        <div class="row">
+          <div class="offset-md-2 col-md-8 text-center">
+            <h2>How We Work ?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, consequuntur? Accusantium delectus esse obcaecati quo corrupti ullam nemo natus quaerat?</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="https://img.freepik.com/free-vector/circuit-board-background-isometric-style_52683-17122.jpg?t=st=1652181174~exp=1652181774~hmac=8e78b833ba43a194ad14c3f5072b613a08ee0a9ceb12412913c6bdfbda129d02&w=996" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Recipe</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="https://img.freepik.com/free-photo/innovation-technology-businessman-holding-holding-tablet-with-lighting-bulb-creative-connection-line_28629-1158.jpg?w=1060" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Recipe</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="https://img.freepik.com/free-photo/innovation-technology-businessman-holding-holding-tablet-with-lighting-bulb-creative-connection-line_28629-1158.jpg?w=1060" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Recipe</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <!-- CONTACT FORM-->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="offset-md-2 col-md-8">
+            <div class="card p-5 my-4">
+              <h2 class="text-center">Contact Us</h2>
+              <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus.</p>
+              <form action="">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" placeholder="Enter your Name">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" placeholder="Enter your Email">
+                <label class="form-label">phone Number</label>
+                <input type="number" class="form-control" placeholder="Enter your Number">
+                <label class="form-label">Message</label>
+                <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                <br>
+                <input type="submit" class="btn btn-info">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <!-- FOTTER -->
+    <footer id="footer" class="p-5 my-4">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-md-3">
+            <img src="images/logo.jpg" alt="" width="50px">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque laboriosam molestias nihil reiciendis excepturi enim dignissimos cumque sit! Placeat, deleniti.</p>
+          </div>
+          
+          <div class="col-md-3">
+            <ul>
+              <a href="">
+                <li>link for topic1</li>
+              </a>
+              <a href="">
+                <li>link for topic2</li>
+              </a>
+              <a href="">
+                <li>link for topic3</li>
+              </a>
+              <a href="">
+                <li>link for topic4</li>
+              </a>
+              <a href="">
+                <li>link for topic5</li>
+              </a>
+            </ul>
+          </div>
+          
+          
+          <div class="col-md-3">
+            <ul>
+              <a href="">
+                <li>link for topic1</li>
+              </a>
+              <a href="">
+                <li>link for topic2</li>
+              </a>
+              <a href="">
+                <li>link for topic3</li>
+              </a>
+              <a href="">
+                <li>link for topic4</li>
+              </a>
+              <a href="">
+                <li>link for topic5</li>
+              </a>
+            </ul>
+          </div>
+          
+          
+          <div class="col-md-3">
+            <h1>Search here</h1>
+            <input type="text" class="form-control-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+            </svg>
+          </div>
+          
+        </div>
+      </div>
+      
+      
+      <hr>
+      
+      
+      <div id="copy">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center pt-5">
+              <p>copyright &#169; by Manoj</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </footer>
+    
+    
+    
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+  
+  
+</html>
